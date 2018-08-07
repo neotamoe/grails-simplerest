@@ -2,7 +2,6 @@ package com.djamware
 
 import grails.rest.*;
 
-@Resource(uri='/article')
 class Article {
 
     static belongsTo = [category:Category]
